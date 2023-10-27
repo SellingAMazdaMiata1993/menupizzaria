@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffcc00; /* Cor de fundo amarela */
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pizza {
+    border: 2px solid #ff5733;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    background-color: #fff; /* Cor de fundo branca */
+}
+
+h2 {
+    color: #ff5733;
+}
+
+input {
+    width: 40px;
+}
+
+h1, h2 {
+    color: #ff5733;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#total-price {
+    font-size: 24px;
+    color: #ff5733;
+}

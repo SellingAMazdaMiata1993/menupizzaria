@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Menu de Pizzaria</h1>
+    <div id="menu">
+        <div class="pizza">
+            <h2>4 Queijos</h2>
+            <p>Ingredientes: Mussarela, Gorgonzola, Parmesão, Provolone, Catupiry</p>
+            <p>Preço: R$ <span id="price-4queijos">49.99</span></p>
+            <input type="number" id="quantity-4queijos" value="0" min="0" max="10">
+        </div>
+        <div class="pizza">
+            <h2>Portuguesa</h2>
+            <p>Ingredientes: Mussarela, Presunto, Ovo, Cebola, Azeitona, Ervilha</p>
+            <p>Preço: R$ <span id="price-portuguesa">30.90</span></p>
+            <input type="number" id="quantity-portuguesa" value="0" min="0" max="10">
+        </div>
+        <div class="pizza">
+            <h2>Pepperoni</h2>
+            <p>Ingredientes: Mussarela, Pepperoni, Cebola</p>
+            <p>Preço: R$ <span id="price-pepperoni">30.90</span></p>
+            <input type="number" id="quantity-pepperoni" value="0" min="0" max="10">
+        </div>
+        <div class="pizza">
+            <h2>Strogonoff</h2>
+            <p>Ingredientes: Mussarela, Strogonoff de Carne, Batata Palha, Champignon</p>
+            <p>Preço: R$ <span id="price-strogonoff">59.99</span></p>
+            <input type="number" id="quantity-strogonoff" value="0" min="0" max="10">
+        </div>
+    </div>
+
+    <h2>Total: R$ <span id="total-price">0.00</span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
